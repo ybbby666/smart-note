@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_1.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_10.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_11.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_12.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_13.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_14.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_15.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_16.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_17.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_2.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_3.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_4.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_5.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_6.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_7.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_8.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/36e531b2-cad7-426b-9e8d-75283a8b6404/console_9.sql" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/smartnote/mapper/NoteMapper.java" value="36e531b2-cad7-426b-9e8d-75283a8b6404" />
+  </component>
+</project>

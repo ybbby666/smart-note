@@ -1,0 +1,237 @@
+00:00:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:01:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:01:45 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:01:45 |-INFO  com.smartnote.controller.FriendController - 查询申请列表
+00:01:45 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+00:01:45 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:01:51 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:01:51 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+00:01:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+00:01:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+00:01:51 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:01:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:01:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+00:01:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+00:01:53 |-INFO  com.smartnote.controller.FriendController - 查询申请列表
+00:01:53 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+00:02:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:02:12 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:02:12 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+00:02:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+00:02:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+00:02:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:02:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+00:02:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+00:02:12 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:02:14 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:02:14 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:02:14 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:02:21 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:02:21 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:02:21 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:02:21 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:02:21 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:03:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:04:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:04:06 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+00:04:06 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+00:04:06 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:04:06 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:04:07 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+00:04:07 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 25136 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+00:04:07 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+00:04:08 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+00:04:08 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:04:08 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:04:08 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+00:04:08 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:04:08 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 661 ms
+00:04:08 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+00:04:09 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+00:04:09 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:04:09 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+00:04:09 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.854 seconds (process running for 2.296)
+00:04:13 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:04:13 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:04:13 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:04:13 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:04:13 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:04:13 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:04:13 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@982d25c
+00:04:13 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:04:13 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:04:13 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:04:13 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:04:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:04:18 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:04:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:04:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:04:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:04:25 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:04:25 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:04:25 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:04:25 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:04:25 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:05:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:06:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:06:12 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:06:12 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:06:12 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:06:12 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:06:12 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:06:13 |-INFO  com.smartnote.controller.NotePermissionController - 获取权限
+00:06:13 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+00:06:13 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+00:06:13 |-INFO  com.smartnote.controller.NotePermissionController - 获取权限
+00:07:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:07:19 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+00:07:19 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+00:07:19 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:07:19 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:07:23 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+00:07:23 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 26008 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+00:07:23 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+00:07:23 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+00:07:23 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:07:23 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:07:23 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+00:07:23 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:07:23 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+00:07:24 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+00:07:24 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+00:07:24 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:07:24 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+00:07:24 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.898 seconds (process running for 2.334)
+00:07:27 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:07:27 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:07:27 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:07:27 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:07:27 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+00:07:27 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:07:27 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14ccbe5c
+00:07:27 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:07:27 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:07:27 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=1
+00:07:27 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹树
+00:07:28 |-INFO  com.smartnote.controller.NotePermissionController - 获取权限
+00:07:28 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+00:07:28 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+00:07:28 |-INFO  com.smartnote.controller.NotePermissionController - 获取权限
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 开始更新笔记权限: noteId=7, userId=1, permissionType=2, shareUserIdList=[2]
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 验证1个共享用户的好友关系
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 用户1与用户2是好友关系，验证通过
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 更新现有权限记录，原类型: 2, 新类型: 2
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 删除了0条旧的共享用户记录
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 准备插入1个共享用户记录，权限类型: 2
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 插入共享用户记录: noteId=7, userId=2, permissionType=EDIT
+00:07:37 |-INFO  c.smartnote.service.impl.NotePermissionServiceImpl - 权限更新完成
+00:07:37 |-INFO  com.smartnote.controller.NotePermissionController - 权限设置成功
+00:07:58 |-INFO  com.smartnote.service.impl.UserServiceImpl - 用户请求登录
+00:07:58 |-INFO  com.smartnote.service.impl.UserServiceImpl - 用户登录成功：用户ID=2, 用户名=huhuhu
+00:07:58 |-INFO  com.smartnote.controller.UserController - 用户登录成功
+00:07:58 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:07:58 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:07:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:07:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:07:58 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:07:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:07:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:07:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:07:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:07:58 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:07:58 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:08:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:08:01 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:08:01 |-INFO  com.smartnote.controller.NoteController - id为2的用户查看id为7的笔记
+00:08:01 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:08:04 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:08:04 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:08:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:08:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:08:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:08:04 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:08:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:08:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:08:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:08:59 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:08:59 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:08:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:08:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:08:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:08:59 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:08:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:08:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:08:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:09:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:09:06 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:09:06 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:09:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:09:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:09:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:09:06 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:09:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:09:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:09:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:09:21 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:09:21 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:09:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:09:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:09:21 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:09:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:09:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:09:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:09:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:10:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:11:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:12:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:12:02 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+00:12:02 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+00:12:02 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:12:02 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+00:12:56 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+00:12:56 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 5584 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+00:12:56 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+00:12:57 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+00:12:57 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:12:57 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:12:57 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+00:12:57 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:12:57 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 677 ms
+00:12:58 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+00:12:58 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+00:12:58 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:12:58 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+00:12:58 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.906 seconds (process running for 2.334)
+00:13:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:13:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56bdf5e5
+00:13:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:13:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+00:13:01 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:13:01 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:13:01 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:13:01 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:13:01 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:13:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:13:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:13:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:13:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:13:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:13:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:13:01 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:13:01 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:13:01 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:13:05 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+00:13:05 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:13:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=2, pageNum=1, pageSize=100
+00:13:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+00:13:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+00:13:05 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:13:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 1
+00:13:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 共享记录详情: [NoteShareUser(id=1, noteId=7, userId=2, permissionType=2, createTime=2026-04-17T00:07:37)]
+00:13:05 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹树：用户ID=2
+00:13:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 0, 共享的: 1
+00:13:05 |-INFO  com.smartnote.controller.NoteFolderController - 用户2获取文件夹树
+00:13:11 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+00:13:11 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+00:13:11 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:13:11 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

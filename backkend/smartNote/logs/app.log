@@ -1,0 +1,1302 @@
+21:20:42 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:20:42 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 9456 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:20:42 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:20:43 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:20:43 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:20:43 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:20:43 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:20:43 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:20:43 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1103 ms
+21:20:44 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:20:44 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@411341bd
+21:20:44 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:20:45 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:20:45 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 2.717 seconds (process running for 3.339)
+21:21:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:21:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d3affc6
+21:21:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:21:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:22:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:22:46 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:22:46 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:22:46 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:22:46 |-WARN  com.smartnote.intercepter.TokenIntercepter - 令牌已过期
+21:22:46 |-WARN  com.smartnote.intercepter.TokenIntercepter - 令牌已过期
+21:22:46 |-WARN  com.smartnote.intercepter.TokenIntercepter - 令牌已过期
+21:23:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:23:03 |-WARN  com.smartnote.intercepter.TokenIntercepter - 令牌已过期
+21:23:03 |-WARN  com.smartnote.intercepter.TokenIntercepter - 令牌已过期
+21:23:03 |-WARN  com.smartnote.intercepter.TokenIntercepter - 令牌已过期
+21:24:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:25:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:26:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:26:46 |-INFO  com.smartnote.service.impl.UserServiceImpl - 用户请求登录
+21:26:46 |-INFO  com.smartnote.service.impl.UserServiceImpl - 用户登录成功：用户ID=1, 用户名=ybbbb
+21:26:46 |-INFO  com.smartnote.controller.UserController - 用户登录成功
+21:26:46 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:26:46 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:26:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:26:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:26:46 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:26:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:26:46 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:26:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:26:46 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:26:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:27:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:28:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:29:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:30:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:30:16 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:30:16 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:30:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:30:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:30:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:30:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:30:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:30:16 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:30:16 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:30:16 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:31:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:32:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:33:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:34:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:34:33 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:33 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:34:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:34:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:33 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:34:33 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:33 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:33 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:34:33 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+21:34:33 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:34:33 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:34:37 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:34:37 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 28764 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:34:37 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:34:38 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:34:38 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:34:38 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:34:38 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:34:38 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:34:38 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 705 ms
+21:34:38 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:34:39 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+21:34:39 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:34:39 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:34:39 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 2.026 seconds (process running for 2.47)
+21:34:40 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:34:40 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:34:40 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:34:40 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:40 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:34:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:40 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:34:40 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4329b42a
+21:34:40 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:34:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:34:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:40 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:34:40 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:40 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:41 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:34:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:34:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:34:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:34:43 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:43 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:34:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:34:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:43 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:34:44 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:44 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+21:34:44 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:45 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:34:45 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:45 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:45 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:34:45 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:45 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:45 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:34:45 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:46 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:34:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:34:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:34:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:34:49 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+21:34:49 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+21:34:50 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:50 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:34:50 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:50 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:34:50 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:50 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:50 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:34:50 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:51 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+21:34:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+21:34:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 0, 自己的: 0, 共享的: 0
+21:34:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 没有可查询的笔记，返回空页面
+21:34:52 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:34:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:34:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:34:53 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:34:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:34:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:34:55 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:34:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:34:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:34:56 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为11的笔记
+21:34:56 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:56 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:57 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:34:57 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:34:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:34:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:34:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:34:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:34:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:34:57 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:34:58 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:34:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:34:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:34:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:35:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:35:09 |-INFO  com.smartnote.controller.FriendController - 查询申请列表
+21:35:09 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+21:35:11 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+21:35:11 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+21:35:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 0, 自己的: 0, 共享的: 0
+21:35:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 没有可查询的笔记，返回空页面
+21:35:11 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:12 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:35:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:35:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:35:14 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:15 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:35:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:35:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:35:24 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:27 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:27 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为12的笔记
+21:35:27 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:28 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:28 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:28 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:29 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为11的笔记
+21:35:29 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:29 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:31 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:31 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:31 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:31 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:31 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:31 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:31 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:31 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:32 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:35:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:35:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:35:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:35:37 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:37 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:35:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:35:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:35:37 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:35:40 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:40 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:40 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:40 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为12的笔记
+21:35:40 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:40 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:41 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:41 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:41 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:41 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:42 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:42 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为11的笔记
+21:35:42 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:43 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:43 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:35:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:35:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:43 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:35:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:35:44 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:35:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:35:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:35:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:35:46 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:35:46 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:35:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:35:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:35:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:35:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:35:46 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:35:46 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:36:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:37:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:38:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:38:35 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:38:35 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+21:38:35 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:38:35 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:38:39 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:38:39 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 30204 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:38:39 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:38:40 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:38:40 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:38:40 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:38:40 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:38:40 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:38:40 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 704 ms
+21:38:41 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:38:41 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+21:38:41 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:38:41 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:38:41 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.956 seconds (process running for 2.397)
+21:39:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:39:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a828797
+21:39:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:39:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:39:18 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:39:18 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:39:18 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:39:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:39:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:39:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:39:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:39:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:39:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:22 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:39:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:39:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:39:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:39:32 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:32 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:39:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:39:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:39:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:39:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:39:32 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:32 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:39:33 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:39:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:39:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:39:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:39:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:39:33 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:39:34 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:34 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为12的笔记
+21:39:34 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:36 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:36 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:39:36 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:39:36 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:39:36 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:39:36 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:36 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:39:36 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:39:37 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:37 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为11的笔记
+21:39:37 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:38 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:39:38 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:39:38 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:39:38 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:39:38 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:39:38 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:39:38 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:39:38 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:39:57 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:39:57 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+21:39:57 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:39:57 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:39:59 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:39:59 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 13016 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:39:59 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:39:59 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:39:59 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:39:59 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:39:59 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:39:59 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:39:59 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 683 ms
+21:40:00 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:40:00 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+21:40:00 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:40:00 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:40:00 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.963 seconds (process running for 2.425)
+21:41:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:41:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@362aac78
+21:41:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:41:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:41:19 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:41:19 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:41:19 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:41:19 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:41:19 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为12的笔记
+21:41:19 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:42:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:42:52 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:42:53 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+21:42:53 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:42:53 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:42:56 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:42:56 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 26528 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:42:56 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:42:57 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:42:57 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:42:57 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:42:57 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:42:57 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:42:57 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 800 ms
+21:42:58 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:42:58 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+21:42:58 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:42:58 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:42:58 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 2.114 seconds (process running for 2.558)
+21:42:58 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:42:58 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:42:58 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+21:42:58 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:42:58 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:42:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:42:58 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:42:58 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@771b86a4
+21:42:58 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:42:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:42:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:42:58 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:42:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:42:58 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:42:59 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:42:59 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为12的笔记
+21:42:59 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:42:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 清理旧浏览历史: userId=1, noteId=12, 删除数量=11
+21:42:59 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建浏览历史: userId=1, noteId=12
+21:43:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:43:02 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:43:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:43:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:43:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:43:04 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+21:43:04 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:43:04 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:43:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 清理旧浏览历史: userId=1, noteId=7, 删除数量=50
+21:43:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建浏览历史: userId=1, noteId=7
+21:43:05 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:43:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:43:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:43:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:43:07 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:43:07 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为11的笔记
+21:43:07 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:43:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 清理旧浏览历史: userId=1, noteId=11, 删除数量=8
+21:43:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建浏览历史: userId=1, noteId=11
+21:43:08 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:43:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:43:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:43:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:43:10 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:43:10 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:43:10 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:43:10 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:43:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:44:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:45:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:46:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:47:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:48:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:49:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:49:37 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:49:37 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+21:49:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:49:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+21:49:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:49:37 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:49:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:49:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 0, 自己的: 0, 共享的: 0
+21:49:37 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 没有可查询的笔记，返回空页面
+21:49:39 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=2
+21:49:39 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:49:39 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:49:39 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:49:39 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:49:39 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:49:40 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:49:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:49:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:49:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:49:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:49:40 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:50:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:51:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:52:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:52:40 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:52:40 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:53:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:53:07 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:53:07 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:53:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:53:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:53:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:53:07 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:53:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:53:07 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:53:09 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:53:09 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:53:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:53:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:53:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:53:09 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:53:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:53:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:53:09 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:53:09 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:53:22 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:53:22 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:53:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:53:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:53:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:53:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:53:22 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:53:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:53:22 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:53:22 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:54:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:54:41 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:54:41 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+21:54:41 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:54:41 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:54:43 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:54:43 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 27792 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:54:43 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:54:44 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:54:44 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:54:44 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:54:44 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:54:44 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:54:44 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 682 ms
+21:54:44 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:54:44 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+21:54:45 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:54:45 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:54:45 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.9 seconds (process running for 2.35)
+21:54:48 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:54:48 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:54:48 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+21:54:48 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:54:48 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:54:48 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:54:48 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:54:49 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e54fb86
+21:54:49 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:54:49 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:54:49 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:54:49 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:54:49 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:54:49 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:54:49 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:54:49 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:54:51 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+21:54:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:54:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 0
+21:54:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:54:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:54:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 0, 自己的: 0, 共享的: 0
+21:54:51 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 没有可查询的笔记，返回空页面
+21:54:52 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+21:54:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:54:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+21:54:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:54:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:54:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+21:54:53 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:54:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:54:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:54:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:54:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:54:53 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:54:55 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+21:54:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+21:54:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 7
+21:54:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+21:54:56 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+21:54:56 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+21:54:56 |-INFO  com.smartnote.controller.FriendController - 查询申请列表
+21:54:56 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+21:54:57 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:54:57 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:54:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:54:57 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:54:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:54:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:54:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:54:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:55:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:55:01 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:55:01 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:56:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:56:14 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+21:56:14 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+21:56:16 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:56:16 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:56:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:56:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+21:56:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:56:16 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:56:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:56:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+21:56:22 |-INFO  com.smartnote.controller.NoteController - id为1的用户删除id为11的笔记
+21:56:22 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 添加到回收站：类型=note, ID=11, 用户ID=1
+21:56:22 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 回收站记录创建成功：ID=13, 资源名称=dadada
+21:56:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 笔记已移至回收站：ID=11, 用户ID=1
+21:56:22 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:56:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:56:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:56:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:56:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:56:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:56:23 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+21:56:23 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+21:57:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:57:03 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:57:03 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:57:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:57:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:57:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:57:03 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:57:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:57:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:57:04 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+21:57:04 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+21:57:04 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:57:04 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:57:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:57:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:57:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:57:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:57:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:57:04 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:57:22 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:57:22 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+21:57:22 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:57:22 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:57:25 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+21:57:25 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 2032 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+21:57:25 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+21:57:26 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+21:57:26 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:57:26 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+21:57:26 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+21:57:26 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:57:26 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 717 ms
+21:57:27 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+21:57:27 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+21:57:27 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:57:27 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+21:57:27 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.974 seconds (process running for 2.405)
+21:57:30 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:57:30 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:57:30 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+21:57:30 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:57:30 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:57:30 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:57:30 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:57:30 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cf08fb9
+21:57:30 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:57:30 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:57:30 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:57:30 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:57:30 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:57:30 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:57:30 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:57:30 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:57:33 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:57:33 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:57:57 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+21:57:57 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+21:57:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+21:57:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+21:57:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+21:57:57 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+21:57:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+21:57:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+21:58:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+21:59:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:00:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:01:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:02:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:02:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 彻底删除：回收站ID=13, 用户ID=1
+22:02:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 笔记彻底删除：ID=11, 影响行数=1
+22:02:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 彻底删除完成
+22:02:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 清理完成，共处理1个过期项目
+22:02:14 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+22:02:14 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+22:02:15 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:02:15 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:02:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:02:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+22:02:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:02:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:02:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+22:02:15 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:02:16 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:02:16 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:02:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:02:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+22:02:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:02:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:02:16 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:02:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+22:02:16 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:02:16 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:02:18 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:02:18 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:02:31 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:02:31 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:02:31 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:02:31 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:02:34 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:02:34 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 25068 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:02:34 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:02:35 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:02:35 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:02:35 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:02:35 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:02:35 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:02:35 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+22:02:36 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:02:36 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:02:36 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:02:36 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:02:36 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.891 seconds (process running for 2.317)
+22:03:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:03:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1704ce12
+22:03:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:03:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:03:00 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:03:00 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:03:00 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:03:00 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:03:00 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:03:00 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:03:00 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:04:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:05:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:06:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:06:35 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:06:35 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:06:35 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:06:35 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:06:39 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:06:39 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 21876 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:06:39 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:06:40 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:06:40 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:06:40 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:06:40 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:06:40 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:06:40 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms
+22:06:40 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:06:40 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:06:41 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:06:41 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:06:41 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.918 seconds (process running for 2.34)
+22:07:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:07:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5aa440
+22:07:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:07:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:07:26 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:07:26 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:07:26 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:07:26 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:07:27 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:07:27 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 25596 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:07:27 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:07:28 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:07:28 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:07:28 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:07:28 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:07:28 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:07:28 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 687 ms
+22:07:28 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:07:29 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:07:29 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:07:29 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:07:29 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.895 seconds (process running for 2.325)
+22:07:37 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:07:37 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:07:37 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:07:37 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:07:37 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:07:37 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15eca34e
+22:07:37 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:07:37 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:07:37 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:07:37 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:08:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:09:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:10:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:11:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:11:00 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:11:00 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:11:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:11:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:11:13 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:11:13 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 30420 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:11:13 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:11:14 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:11:14 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:11:14 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:11:14 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:11:14 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:11:14 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 752 ms
+22:11:14 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:11:14 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:11:15 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:11:15 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:11:15 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 2.017 seconds (process running for 2.458)
+22:11:19 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:11:19 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:11:19 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:11:19 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:11:19 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:11:19 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23df9b76
+22:11:19 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:11:19 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:11:19 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:11:19 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:12:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:13:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:13:23 |-INFO  com.smartnote.controller.FriendController - 查询申请列表
+22:13:23 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+22:13:28 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:13:28 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:13:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:13:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+22:13:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:13:28 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:13:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:13:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+22:13:47 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:13:47 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:13:47 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:13:47 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:13:51 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:13:51 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 13016 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:13:51 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:13:52 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:13:52 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:13:52 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:13:52 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:13:52 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:13:52 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 685 ms
+22:13:52 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:13:52 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:13:53 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:13:53 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:13:53 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.907 seconds (process running for 2.33)
+22:13:56 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:13:56 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:13:56 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:13:56 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:13:56 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:13:56 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:13:56 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:13:56 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20413578
+22:13:56 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:13:56 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 2
+22:13:56 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:13:56 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:13:56 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:13:56 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 2, 自己的: 2, 共享的: 0
+22:13:56 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:13:56 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:13:58 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:13:58 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:14:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:14:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建笔记时未指定文件夹，自动分配到默认文件夹: 1
+22:14:10 |-INFO  com.smartnote.controller.NoteController - 用户新增笔记，ID=13
+22:14:10 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为13的笔记
+22:14:10 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建浏览历史: userId=1, noteId=13
+22:14:12 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:14:12 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:14:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:14:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:12 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:14:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:14:15 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:15 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:16 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:16 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:17 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:17 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:17 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:19 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:20 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:20 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:20 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:21 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:21 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:22 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:22 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:22 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:24 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:14:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:14:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:24 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:14:27 |-INFO  com.smartnote.controller.FriendController - 查询申请列表
+22:14:27 |-INFO  com.smartnote.controller.FriendController - 查询朋友
+22:14:27 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+22:14:27 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+22:14:27 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 8
+22:14:27 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+22:14:28 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:14:28 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:14:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:14:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:14:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:14:28 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:14:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:14:28 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:15:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:16:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:16:02 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:16:02 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:16:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:16:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:16:02 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:16:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:16:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:16:02 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:16:02 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:16:02 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:16:11 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:16:11 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:16:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:16:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:16:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:16:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:16:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:16:11 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:16:23 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:16:23 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:16:23 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:16:23 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:16:23 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:16:23 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:16:23 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:16:23 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:16:29 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:16:29 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:16:29 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:16:29 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:16:29 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:16:29 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:16:29 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:16:29 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:16:49 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:16:49 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:16:49 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:16:49 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:16:50 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:16:50 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 15648 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:16:50 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:16:51 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:16:51 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:16:51 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:16:51 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:16:51 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:16:51 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 702 ms
+22:16:52 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:16:52 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:16:52 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:16:52 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:16:52 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.92 seconds (process running for 2.391)
+22:17:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:17:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bdadb46
+22:17:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:17:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:17:12 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:17:12 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:17:12 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:17:12 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:17:12 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:17:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:17:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:17:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:17:12 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:17:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:17:12 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:17:12 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:17:12 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:17:14 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:17:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:17:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:17:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:17:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:17:14 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:17:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:17:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:17:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:17:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:17:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:17:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:17:52 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:17:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:17:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:17:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:17:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:17:52 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:17:54 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:17:54 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:17:54 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:17:54 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:17:54 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:17:54 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:17:54 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:17:54 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:17:55 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:17:55 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为7的笔记
+22:17:55 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:17:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 清理旧浏览历史: userId=1, noteId=7, 删除数量=1
+22:17:55 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建浏览历史: userId=1, noteId=7
+22:17:57 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:17:57 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:17:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:17:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:17:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:17:57 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:17:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:17:57 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:18:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:18:04 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:18:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:18:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:04 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:18:05 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:18:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:05 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:18:06 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:18:08 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:18:08 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:18:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:18:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:08 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:18:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:08 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:18:10 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 获取回收站列表：用户ID=1
+22:18:10 |-INFO  com.smartnote.controller.RecycleBinController - 用户1获取回收站列表
+22:18:11 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:18:11 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:18:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:18:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:18:11 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:18:13 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:18:13 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:18:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:18:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:18:13 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:18:34 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:18:34 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:18:34 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:18:34 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:18:34 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:18:34 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:18:34 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:18:34 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:19:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:19:33 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:19:34 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:19:34 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:19:34 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:19:35 |-INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+22:19:35 |-INFO  com.smartnote.SmartNoteApplication - Starting SmartNoteApplication using Java 17.0.18 with PID 26640 (C:\Users\y'b\IdeaProjects\smartNote\target\classes started by y'b in C:\Users\y'b\IdeaProjects\smartNote)
+22:19:35 |-INFO  com.smartnote.SmartNoteApplication - No active profile set, falling back to 1 default profile: "default"
+22:19:36 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+22:19:36 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:19:36 |-INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+22:19:36 |-INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.52]
+22:19:36 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+22:19:36 |-INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 649 ms
+22:19:36 |-INFO  com.smartnote.utils.JwtUtils - JWT工具类初始化成功，Access Token过期时间: 12小时, Refresh Token过期时间: 7天
+22:19:36 |-INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41beb473
+22:19:37 |-INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:19:37 |-INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+22:19:37 |-INFO  com.smartnote.SmartNoteApplication - Started SmartNoteApplication in 1.862 seconds (process running for 2.32)
+22:20:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:20:00 |-INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64a47f5
+22:20:00 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:20:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:20:01 |-INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:20:01 |-INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+22:20:01 |-INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+22:20:01 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:20:01 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:20:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:20:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:20:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:20:01 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:20:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:20:01 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:20:01 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:20:01 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:20:03 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:20:03 |-INFO  com.smartnote.controller.NoteController - id为1的用户查看id为13的笔记
+22:20:03 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:20:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 清理旧浏览历史: userId=1, noteId=13, 删除数量=1
+22:20:03 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 创建浏览历史: userId=1, noteId=13
+22:20:06 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:20:06 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:20:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:20:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:20:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:20:06 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:20:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:20:06 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:20:09 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:20:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:20:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:20:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:20:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:20:09 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:20:13 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:20:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:20:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:20:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:20:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:20:13 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:20:43 |-INFO  com.smartnote.controller.NoteController - 查看历史纪录
+22:20:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 获取笔记历史记录: userId=1, pageNum=1, pageSize=10
+22:20:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 去重后的笔记数量: 8
+22:20:43 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 返回历史记录数量: 3
+22:20:44 |-INFO  com.smartnote.service.impl.NoteFolderServiceImpl - 获取文件夹列表：用户ID=1
+22:20:44 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:20:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:20:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:20:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:20:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:20:44 |-INFO  com.smartnote.controller.NoteFolderController - 用户1获取文件夹列表
+22:20:44 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:21:00 |-INFO  com.smartnote.service.impl.RecycleBinServiceImpl - 开始清理过期回收站项目
+22:21:11 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:21:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:21:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:11 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:21:18 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:21:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:21:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:18 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:21:19 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:21:19 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:19 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:21:20 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=1
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:21:20 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=0
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 1
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:20 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 1, 自己的: 1, 共享的: 0
+22:21:21 |-INFO  com.smartnote.controller.NoteController - 查询笔记, folderId=null
+22:21:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 开始查询笔记列表: userId=1, pageNum=1, pageSize=100
+22:21:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到自己创建的笔记数量: 3
+22:21:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到公开笔记数量: 0
+22:21:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 查询到共享用户记录数量: 0
+22:21:21 |-INFO  com.smartnote.service.impl.NoteServiceImpl - 合并后的笔记总数: 3, 自己的: 3, 共享的: 0
+22:21:33 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+22:21:33 |-INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+22:21:33 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:21:33 |-INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

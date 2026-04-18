@@ -1,0 +1,49 @@
+spring:
+  sql:
+    init:
+      mode: never
+  datasource:
+    url: jdbc:mysql://localhost:3306/smart_note?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: 2039578996@qq.com
+    password: hzaatvxdauascggj
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+  ai:
+    openai:
+      api-key: 1dd3f91a-c98d-4c79-ba96-9d9bff7f6d12
+      base-url: https://ark.cn-beijing.volces.com/api/v3
+      chat:
+        options:
+          timeout: 30s
+          model: doubao-1-5-lite-32k-250115
+mybatis-plus:
+  type-aliases-package: com.smartnote.pojo
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+
+# JWT 配置
+jwt:
+  # JWT 密钥（至少32字符，生产环境请使用环境变量或配置中心）
+  secret: SmartNote2026JWTSecretKeyForToken!@#$%
+  # Access Token 过期时间（毫秒），默认12小时
+  expiration: 43200000
+  # Refresh Token 过期时间（毫秒），默认7天
+  refresh-expiration: 604800000
